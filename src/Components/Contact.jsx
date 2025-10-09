@@ -14,7 +14,6 @@ export default function Contact() {
         </div>
 
         <div className="flex flex-col lg:flex-row gap-8 sm:gap-12">
-          {/* Contact Info - Left Side */}
           <div className="w-full lg:w-1/2 flex flex-col items-center lg:items-start gap-4 sm:gap-6">
             <div className="w-full lg:w-2/3 rounded-xl p-6 flex flex-col items-center lg:items-start gap-3">
               <i className="fa-regular fa-envelope text-[25px]" style={{ color: "#9333ea" }}></i>
@@ -32,7 +31,6 @@ export default function Contact() {
             </div>
           </div>
 
-          {/* Contact Form - Right Side */}
           <div className="w-full lg:w-1/2 flex flex-col justify-start items-start gap-4 p-6 lg:p-8 xl:p-10">
             <h2 className="font-medium text-xl w-full text-center lg:text-left">Send me a Message</h2>
 
